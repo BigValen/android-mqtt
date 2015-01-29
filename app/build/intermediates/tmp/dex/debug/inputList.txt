@@ -1,0 +1,2 @@
+C:\Users\looney\AndroidstudioProjects\org.eclipse.paho.android.service.sample\app\build\intermediates\classes\debug
+C:\Users\looney\AndroidstudioProjects\org.eclipse.paho.android.service.sample\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-adcaaa85c2d941e888b54f5a0ac24ff202ce267b.jar
