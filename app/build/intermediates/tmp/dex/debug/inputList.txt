@@ -1,2 +1,0 @@
-/usr/local/google/home/looney/repos/android-mqtt/app/build/intermediates/classes/debug
-/usr/local/google/home/looney/repos/android-mqtt/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-21bfe362dadda7402c48dc3cebf1115dcb0cd70f.jar
