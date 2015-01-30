@@ -14,4 +14,4 @@ IBM Corp.
     android:id="@+id/pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConnectionDetails" /><!-- From: file:/C:/Users/looney/AndroidstudioProjects/org.eclipse.paho.android.service.sample/app/src/main/res/layout/activity_connection_details.xml -->
+    tools:context=".ConnectionDetails" /><!-- From: file:/usr/local/google/home/looney/repos/android-mqtt/app/src/main/res/layout/activity_connection_details.xml -->

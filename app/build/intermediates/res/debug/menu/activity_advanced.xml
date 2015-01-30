@@ -22,4 +22,4 @@ IBM Corp.
         android:titleCondensed="@string/willMessageShort"
         android:showAsAction="always" />
 </menu>
-<!-- From: file:/C:/Users/looney/AndroidstudioProjects/org.eclipse.paho.android.service.sample/app/src/main/res/menu/activity_advanced.xml -->
+<!-- From: file:/usr/local/google/home/looney/repos/android-mqtt/app/src/main/res/menu/activity_advanced.xml -->
