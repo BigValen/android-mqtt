@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="Arrow"><attr format="string" name="exampleString"/><attr format="dimension" name="exampleDimension"/><attr format="color" name="exampleColor"/><attr format="color|reference" name="exampleDrawable"/></declare-styleable>
-    <!-- From: file:/C:/Users/looney/AndroidstudioProjects/org.eclipse.paho.android.service.sample/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/usr/local/google/home/looney/repos/android-mqtt/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="Disconnect">Disconnect</string>
     <string name="advanced">Advanced Options</string>
@@ -86,7 +86,7 @@
     <string name="unkown_error">Unknown Error</string>
     <string name="willMessage">Set Last Will Message</string>
     <string name="willMessageShort">Last Will</string>
-    <!-- From: file:/C:/Users/looney/AndroidstudioProjects/org.eclipse.paho.android.service.sample/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/usr/local/google/home/looney/repos/android-mqtt/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

@@ -18,4 +18,4 @@ IBM Corp.
         android:title="@string/subscribe" />
         <item android:id="@+id/disconnect" android:title="@string/Disconnect" android:showAsAction="ifRoom"></item>
 </menu>
-<!-- From: file:/C:/Users/looney/AndroidstudioProjects/org.eclipse.paho.android.service.sample/app/src/main/res/menu/activity_subscribe.xml -->
+<!-- From: file:/usr/local/google/home/looney/repos/android-mqtt/app/src/main/res/menu/activity_subscribe.xml -->
