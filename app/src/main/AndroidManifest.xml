@@ -57,6 +57,12 @@
             android:label="@string/title_activity_connection_details"
              >
         </activity>
+
+        <activity
+            android:name="org.eclipse.paho.android.service.sample.GarageDoorOpen"
+            android:label="Garage Door Open"
+            >
+        </activity>
     </application>
 
 </manifest>

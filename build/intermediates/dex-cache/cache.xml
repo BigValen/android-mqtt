@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/usr/local/google/home/looney/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="C:\Users\looney\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/usr/local/google/home/looney/repos/android-mqtt/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-21bfe362dadda7402c48dc3cebf1115dcb0cd70f.jar" />
+        <dex dex="C:\Users\looney\AndroidstudioProjects\org.eclipse.paho.android.service.sample\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-adcaaa85c2d941e888b54f5a0ac24ff202ce267b.jar" />
+    </item>
+    <item
+        jar="C:\Users\looney\AndroidstudioProjects\org.eclipse.paho.android.service.sample\app\libs\org.eclipse.paho.client.mqttv3-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7aa6288adccbab31454d36dc2dfdf4b125812503">
+        <dex dex="C:\Users\looney\AndroidstudioProjects\org.eclipse.paho.android.service.sample\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3-1.0.1-5c6a725b021536033dad4eaa690a529b075ac54a.jar" />
     </item>
 
 </items>

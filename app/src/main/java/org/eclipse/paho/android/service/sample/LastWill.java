@@ -21,7 +21,7 @@ import android.view.MenuItem.OnMenuItemClickListener;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioGroup;
-import org.eclipse.paho.android.service.sample.R;
+
 
 /**
  * Activity for setting the last will message for the client

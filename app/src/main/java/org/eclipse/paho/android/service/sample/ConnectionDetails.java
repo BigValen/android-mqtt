@@ -12,10 +12,6 @@
  */
 package org.eclipse.paho.android.service.sample;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.util.ArrayList;
-import org.eclipse.paho.android.service.sample.R;
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
@@ -25,6 +21,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.ArrayList;
 
 /**
  * The connection details activity operates the fragments that make up the
@@ -152,6 +152,9 @@ public class ConnectionDetails extends FragmentActivity implements
           menuID = R.menu.activity_publish;
           button = R.id.publish;
           break;
+        case 3: //  garage door
+          menuID = R.menu.activity_connection_details;
+          break;
         default :
           menuID = R.menu.activity_connection_details;
           break;
@@ -169,6 +172,9 @@ public class ConnectionDetails extends FragmentActivity implements
         case 2 : // publish view
           menuID = R.menu.activity_publish_disconnected;
           button = R.id.publish;
+          break;
+        case 3: // garage door
+          menuID = R.menu.activity_connection_details_disconnected;
           break;
         default :
           menuID = R.menu.activity_connection_details_disconnected;
@@ -264,7 +270,7 @@ public class ConnectionDetails extends FragmentActivity implements
       fragments.add(fragment);
       fragments.add(new SubscribeFragment());
       fragments.add(new PublishFragment());
-
+      fragments.add(new GarageDoorOpen());
     }
 
     /**
@@ -296,6 +302,8 @@ public class ConnectionDetails extends FragmentActivity implements
           return getString(R.string.subscribe).toUpperCase();
         case 2 :
           return getString(R.string.publish).toUpperCase();
+        case 3 :
+          return getString(R.string.garagedoor).toUpperCase();
       }
       // return null if there is no title matching the position
       return null;
